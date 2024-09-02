@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.4" class="java.beans.XMLDecoder">
+ <object class="ca.ahuntsic.projet2.classes.Banque" id="Banque0">
+  <void property="listeClient">
+   <void method="add">
+    <object class="ca.ahuntsic.projet2.classes.Client" id="Client0">
+     <void property="comptes">
+      <void method="add">
+       <object class="ca.ahuntsic.projet2.classes.Epargne">
+        <void property="identifiant">
+         <string>91716-0002-23</string>
+        </void>
+        <void property="interet">
+         <double>0.0</double>
+        </void>
+        <void property="solde">
+         <double>200.0</double>
+        </void>
+        <void property="tauxInteret">
+         <double>400.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="ca.ahuntsic.projet2.classes.Epargne">
+        <void property="identifiant">
+         <string>20484-0003-23</string>
+        </void>
+        <void property="interet">
+         <double>0.0</double>
+        </void>
+        <void property="solde">
+         <double>200.0</double>
+        </void>
+        <void property="tauxInteret">
+         <double>400.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="ca.ahuntsic.projet2.classes.Classique" id="Classique0">
+        <void property="decouverte">
+         <int>400</int>
+        </void>
+        <void property="identifiant">
+         <string>41724-0004-23</string>
+        </void>
+        <void property="operations">
+         <void method="add">
+          <null/>
+         </void>
+         <void method="add">
+          <object class="ca.ahuntsic.projet2.classes.Operation">
+           <void property="montant">
+            <double>200.0</double>
+           </void>
+           <void property="typeOperation">
+            <object class="java.lang.Enum" id="TypeOperation0" method="valueOf">
+             <class>ca.ahuntsic.projet2.classes.TypeOperation</class>
+             <string>RETRAIT</string>
+            </object>
+           </void>
+          </object>
+         </void>
+         <void method="add">
+          <object class="ca.ahuntsic.projet2.classes.Operation">
+           <void property="montant">
+            <double>100.0</double>
+           </void>
+           <void property="typeOperation">
+            <object idref="TypeOperation0"/>
+           </void>
+          </object>
+         </void>
+        </void>
+        <void property="solde">
+         <double>400.0</double>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="nom">
+      <string>paulo</string>
+     </void>
+     <void property="op">
+      <object class="ca.ahuntsic.projet2.classes.Operation">
+       <void property="montant">
+        <double>100.0</double>
+       </void>
+       <void property="typeOperation">
+        <object idref="TypeOperation0"/>
+       </void>
+      </object>
+     </void>
+     <void property="prenom">
+      <string>marco</string>
+     </void>
+    </object>
+   </void>
+   <void method="add">
+    <object class="ca.ahuntsic.projet2.classes.Client" id="Client1">
+     <void property="comptes">
+      <void method="add">
+       <object class="ca.ahuntsic.projet2.classes.Classique">
+        <void property="identifiant">
+         <string>23187-0000-23</string>
+        </void>
+        <void property="solde">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+      <void method="add">
+       <object class="ca.ahuntsic.projet2.classes.Epargne">
+        <void property="identifiant">
+         <string>96217-0001-23</string>
+        </void>
+        <void property="interet">
+         <double>0.0</double>
+        </void>
+        <void property="tauxInteret">
+         <double>200.0</double>
+        </void>
+       </object>
+      </void>
+     </void>
+     <void property="nom">
+      <string>travail</string>
+     </void>
+     <void property="prenom">
+      <string>Steve</string>
+     </void>
+    </object>
+   </void>
+  </void>
+  <void property="nom">
+   <string>BMO</string>
+  </void>
+  <void property="numeroSuccursale">
+   <string>23</string>
+  </void>
+ </object>
+</java>
